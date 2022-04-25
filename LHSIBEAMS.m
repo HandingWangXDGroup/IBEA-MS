@@ -32,7 +32,7 @@ function LHSIBEAMS(Global)
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
     %% Construct the kriging and RBFN models 
-    PopDec      = LHS_sam(Global);
+    PopDec      = LHS_sam(Global);                       %The initial offline data is sampled by the LHS
     Population  = Fitness(PopDec,Global);                %Generate the initial offline data evaulated by the real objective functions
     KModel      = construct_kriging(Population, Global);
     Rnets       = construct_Rnets(Population, Global);  
