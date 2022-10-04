@@ -1,6 +1,8 @@
 # IBEA-MS
 IBEA-MS: Performance Indicator based Adaptive Model Selection for Offline Data-Driven Multi-Objective Evolutionary Optimization
 
+Tip: The pdf documents of the Supplementary material is also displayed in the project.
+
 ------------------------------- Reference --------------------------------
 
 Z. Liu, H. Wang and Y. Jin, Performance Indicator based Adaptive Model Selection for Offline Data-Driven Multi-Objective Evolutionary Optimization in IEEE Transactions on Cybernetics.
